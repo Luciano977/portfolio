@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Imagen provisional del juego de plataformas</title>
+  <desc id="desc">Escena de plataformas geométricas verde neón sobre un fondo de terminal.</desc>
+  <rect width="800" height="450" fill="#0b1b11"/>
+  <path d="M0 80h800M0 160h800M0 240h800M0 320h800M0 400h800M80 0v450M160 0v450M240 0v450M320 0v450M400 0v450M480 0v450M560 0v450M640 0v450M720 0v450" stroke="#102519" stroke-width="1"/>
+  <path d="M82 330h130v24H82zm194-62h126v24H276zm193-72h155v24H469zM0 379h800v8H0z" fill="#55ff78"/>
+  <rect x="136" y="276" width="38" height="52" rx="4" fill="#a0ffad" stroke="#55ff78" stroke-width="3"/>
+  <path d="M136 290h38M136 304h38" stroke="#06110c" stroke-width="4"/>
+  <circle cx="628" cy="135" r="18" fill="#a0ffad"/>
+  <text x="400" y="425" fill="#55ff78" font-family="monospace" font-size="22" text-anchor="middle">IMG / JUEGO DE PLATAFORMAS</text>
+</svg>

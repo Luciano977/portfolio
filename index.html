@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06110c">
+  <meta name="description" content="Portfolio de Luciano Damian Cejas, estudiante de programación y desarrollador C# y .NET en formación.">
+  <title>Luciano Damian Cejas | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navegación principal -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Luciano Cejas, ir al inicio">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>Luciano Cejas</span>
+      </a>
+
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Abrir o cerrar el menú">
+      <label class="menu-button" for="menu-toggle" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#conocimientos">Conocimientos</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#redes">Redes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Presentación -->
+    <section class="hero section" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Portfolio personal <span class="eyebrow-divider">/</span> Disponible para nuevos desafíos</p>
+          <h1 id="hero-title">Luciano Damian<br><span class="accent-text">Cejas</span></h1>
+          <p class="hero-role">Desarrollador C#<span aria-hidden="true"> · </span>Desarrollador Front y Backend .NET</p>
+          <p class="hero-intro">Estudiante entusiasta, intentando ingresar en el mundo IT.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="cv/cv.pdf" download="tu cv.pdf">Descargar CV <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="hero-index" aria-hidden="true"><span>01</span> / 06</p>
+        </div>
+
+        <div class="portrait-wrap">
+          <div class="portrait-frame">
+            <span class="frame-corner frame-corner-top" aria-hidden="true"></span>
+            <img class="portrait" src="foto-perfil.jpg" alt="Retrato de Luciano Damian Cejas">
+            <span class="portrait-caption"><span class="status-dot" aria-hidden="true"></span> LUCIANO_CEJAS.JPG</span>
+            <span class="frame-corner frame-corner-bottom" aria-hidden="true"></span>
+          </div>
+          <span class="portrait-orbit orbit-one" aria-hidden="true"></span>
+          <span class="portrait-orbit orbit-two" aria-hidden="true"></span>
+          <span class="portrait-coordinate" aria-hidden="true">51°37′S<br>69°13′O</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#sobre-mi"><span aria-hidden="true">↓</span> Desplazarse</a>
+    </section>
+
+    <!-- Sobre mí, datos y recorrido laboral -->
+    <section class="section about-section" id="sobre-mi" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Perfil</p>
+          <h2 id="about-title">Sobre <span class="accent-text">mí</span></h2>
+        </div>
+        <div class="about-intro">
+          <p class="lead-copy">Soy de Río Gallegos, Provincia de Santa Cruz, y estudiante de programación. Estoy cursando el 2.º año de la Tecnicatura Universitaria en Programación en la UTN Facultad Regional General Pacheco.</p>
+          <p>Me gradué en 2023 de Técnico Universitario en Administración en la UTN Facultad Regional Santa Cruz. Actualmente me desempeño como empleado administrativo y me gustaría poder trabajar en el mundo de IT.</p>
+        </div>
+
+        <div class="quick-facts" aria-label="Datos personales y académicos">
+          <article class="fact-card">
+            <span class="fact-icon" aria-hidden="true">⌖</span>
+            <h3>Ubicación</h3>
+            <p>Río Gallegos<br>Provincia de Santa Cruz</p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-icon" aria-hidden="true">文</span>
+            <h3>Idiomas</h3>
+            <p>Inglés<br>Principiante</p>
+          </article>
+          <article class="fact-card fact-card-wide">
+            <span class="fact-icon" aria-hidden="true">⌘</span>
+            <h3>Educación</h3>
+            <p>Técnico Universitario en Administración — UTN Facultad Regional Santa Cruz.<br>Estudiante de la Tecnicatura Universitaria en Programación — UTN Facultad Regional General Pacheco.</p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-icon" aria-hidden="true">▤</span>
+            <h3>Experiencia actual</h3>
+            <p>Responsable de Administración en un gremio.</p>
+          </article>
+        </div>
+
+        <div class="timeline-block">
+          <div class="subsection-heading">
+            <p class="eyebrow">Trayectoria</p>
+            <h3>Experiencia laboral</h3>
+          </div>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <span class="timeline-date">2011 — hoy</span>
+              <div><h4>Responsable de Administración</h4><p>Gremio</p></div>
+            </li>
+            <li class="timeline-item">
+              <span class="timeline-date">2008 — 2011</span>
+              <div><h4>Responsable de Administración</h4><p>Comercio dedicado a la venta de repuestos automotor</p></div>
+            </li>
+            <li class="timeline-item">
+              <span class="timeline-date">2005 — 2008</span>
+              <div><h4>Responsable de Administración</h4><p>Comercio dedicado a la venta y reparación de grupos electrógenos para empresas petroleras</p></div>
+            </li>
+            <li class="timeline-item">
+              <span class="timeline-date">1999 — 2005</span>
+              <div><h4>Atención al público y administración</h4><p>Empresa de transportes</p></div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conocimientos: etiquetas, sin porcentajes -->
+    <section class="section skills-section" id="conocimientos" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / Stack</p>
+          <h2 id="skills-title">Conoci<span class="accent-text">mientos</span></h2>
+          <p class="section-description">Tecnologías que estoy aprendiendo y usando en mis proyectos.</p>
+        </div>
+        <div class="skill-groups">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <h3>Desarrollo</h3>
+            <ul class="tag-list">
+              <li>C#</li><li>.NET</li><li>C++</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <h3>Web</h3>
+            <ul class="tag-list">
+              <li>HTML</li><li>CSS</li><li>Diseño responsive</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <h3>Experiencia profesional</h3>
+            <ul class="tag-list">
+              <li>Administración</li><li>Atención al público</li><li>Organización</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="section projects-section" id="proyectos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">03 / Laboratorio</p>
+            <h2 id="projects-title">Proyectos <span class="accent-text">destacados</span></h2>
+          </div>
+          <p class="section-description">Una muestra de proyectos de programación.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image-link project-gallery">
+              <a href="proyecto-sistema-gestion.png" target="_blank" rel="noopener noreferrer" aria-label="Abrir captura de facturación en una pestaña nueva">
+                <img class="project-image" src="proyecto-sistema-gestion.png" alt="Pantalla de inicio del sistema de facturación">
+                <span class="project-shot-label">Facturación</span>
+              </a>
+              <a href="proyecto-menu-sistema.png" target="_blank" rel="noopener noreferrer" aria-label="Abrir captura del menú administrativo en una pestaña nueva">
+                <img class="project-image" src="proyecto-menu-sistema.png" alt="Menú administrativo del sistema de gestión">
+                <span class="project-shot-label">Administración</span>
+              </a>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>01 / Destacado</span><span>Aplicación de gestión</span></div>
+              <h3>Sistema de Gestión</h3>
+              <p>Aplicación de gestión desarrollada en C++.</p>
+              <dl class="project-details">
+                <div><dt>Tecnología</dt><dd>C++</dd></div>
+                <div><dt>Contexto</dt><dd>Proyecto de desarrollo</dd></div>
+                <div><dt>Rol</dt><dd>Desarrollador</dd></div>
+              </dl>
+              <a class="text-link" href="https://github.com/Luciano977" target="_blank" rel="noopener noreferrer">Ver en GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image-link">
+              <img class="project-image" src="proyecto-juego-dados.svg" alt="Ilustración provisional para el juego de dados en C++">
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>02 / Destacado</span><span>Videojuego</span></div>
+              <h3>Juego en C++</h3>
+              <p>Juego de dados desarrollado en C++.</p>
+              <dl class="project-details">
+                <div><dt>Tecnología</dt><dd>C++</dd></div>
+                <div><dt>Contexto</dt><dd>Proyecto de programación</dd></div>
+                <div><dt>Rol</dt><dd>Desarrollador</dd></div>
+              </dl>
+              <a class="text-link" href="https://github.com/Luciano977/Proyecto.git" target="_blank" rel="noopener noreferrer">Ver en GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image-link">
+              <img class="project-image" src="proyecto-juego-mario.svg" alt="Ilustración provisional para la copia del juego Mario en C++">
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>03 / Destacado</span><span>Videojuego</span></div>
+              <h3>Juego Mario Bros en C++</h3>
+              <p>Copia del juego Mario Bros, desarrollada en C++.</p>
+              <dl class="project-details">
+                <div><dt>Tecnología</dt><dd>C++</dd></div>
+                <div><dt>Contexto</dt><dd>Proyecto de programación</dd></div>
+                <div><dt>Rol</dt><dd>Desarrollador</dd></div>
+              </dl>
+              <a class="text-link" href="https://github.com/Luciano977" target="_blank" rel="noopener noreferrer">Ver en GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Redes y contacto directo -->
+    <section class="section social-section" id="redes" aria-labelledby="social-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04 / Conectemos</p>
+          <h2 id="social-title">Redes <span class="accent-text">y contacto</span></h2>
+        </div>
+        <div class="social-grid">
+          <a class="social-card" href="https://www.linkedin.com/in/luciano-damian-cejas-ba4167318" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4ZM3.3 9.5h3.8v11.2H3.3V9.5Zm6.1 0H13v1.5h.1a4 4 0 0 1 3.6-2c3.9 0 4.6 2.5 4.6 5.7v6h-3.8v-5.3c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9v5.4H9.4V9.5Z"/></svg>
+            <span><strong>LinkedIn</strong><small>Perfil profesional</small></span><span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="social-card" href="https://github.com/Luciano977" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.2.8-.6v-2.1c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.4-5.5-6.1 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.3 2.9.2 3.2.8.8 1.2 1.9 1.2 3.2 0 4.7-2.8 5.8-5.5 6.1.4.4.8 1 .8 2.1v3.2c0 .4.2.7.8.6A11.1 11.1 0 0 0 12 .9Z"/></svg>
+            <span><strong>GitHub</strong><small>Repositorios y proyectos</small></span><span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="social-card" href="mailto:luciano977@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.8 5.2h18.4v13.6H2.8V5.2Zm1.8 1.6 7.4 5.3 7.4-5.3H4.6Zm14.8 10.2V9l-7.4 5.3L4.6 9v8h14.8Z"/></svg>
+            <span><strong>Email</strong><small>luciano977@gmail.com</small></span><span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="social-card" href="https://wa.me/NUMERO" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a9.8 9.8 0 0 0-8.4 14.8L2.3 22l5.3-1.4A9.9 9.9 0 1 0 12 2Zm0 17.9a8 8 0 0 1-4.1-1.1l-.3-.2-3.1.8.8-3-.2-.3A8 8 0 1 1 12 19.9Zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8.9-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.5.2-.4c.1-.2 0-.3 0-.4l-.7-1.6c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.1.9 2.3c.1.2 1.6 2.5 3.9 3.4.5.2 1 .4 1.3.5.5.2 1 .2 1.4.1.4-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3Z"/></svg>
+            <span><strong>WhatsApp</strong><small>Escribime directamente</small></span><span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario sin JavaScript: reemplazar TU_ID en Formspree -->
+    <section class="section contact-section" id="contacto" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">05 / Mensaje entrante</p>
+          <h2 id="contact-title">Hablemos<span class="accent-text">.</span></h2>
+          <p>¿Tenés una oportunidad, propuesta o proyecto en mente? Completá el formulario y me pondré en contacto.</p>
+          <p class="contact-terminal"><span aria-hidden="true">&gt;</span> canal_abierto: true</p>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/TU_ID" method="POST">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="tu@email.com" required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="asunto">Asunto</label>
+            <input id="asunto" name="asunto" type="text" placeholder="¿De qué querés hablar?" required>
+          </div>
+          <div class="form-field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje..." required></textarea>
+          </div>
+          <button class="button button-primary submit-button" type="submit">Enviar <span aria-hidden="true">↗</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>Luciano Cejas</span></a>
+      <p>© 2026 Luciano Cejas</p>
+      <p class="footer-note"><span class="status-dot" aria-hidden="true"></span> Hecho con código y mate</p>
+    </div>
+  </footer>
+</body>
+</html>
